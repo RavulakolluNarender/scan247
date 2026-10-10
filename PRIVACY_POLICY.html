@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Scan247: QR & Barcode Toolkit</title>
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #141c2e;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent-color: #10b981;
+      --accent-light: #34d399;
+      --border-color: #1e293b;
+      --badge-local: #064e3b;
+      --badge-local-text: #6ee7b7;
+      --badge-remote: #78350f;
+      --badge-remote-text: #fde68a;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-color: #f8fafc;
+        --card-bg: #ffffff;
+        --text-main: #0f172a;
+        --text-muted: #64748b;
+        --accent-color: #059669;
+        --accent-light: #10b981;
+        --border-color: #e2e8f0;
+        --badge-local: #d1fae5;
+        --badge-local-text: #065f46;
+        --badge-remote: #fef3c7;
+        --badge-remote-text: #92400e;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text-main);
+      background-color: var(--bg-color);
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .brand-badge {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-light);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 9999px;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--accent-light);
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p, ul {
+      margin-bottom: 1rem;
+      color: var(--text-main);
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      border: 1px solid var(--border-color);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(16, 185, 129, 0.08);
+      font-weight: 600;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+    }
+
+    .badge-local {
+      background: var(--badge-local);
+      color: var(--badge-local-text);
+    }
+
+    .badge-remote {
+      background: var(--badge-remote);
+      color: var(--badge-remote-text);
+    }
+
+    .placeholder-alert {
+      background: rgba(245, 158, 11, 0.12);
+      border-left: 4px solid #f59e0b;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.95rem;
+    }
+
+    .placeholder-alert strong {
+      color: #f59e0b;
+    }
+
+    a {
+      color: var(--accent-light);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="brand-badge">Scan247 • QR &amp; Barcode Toolkit</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta"><strong>Effective Date:</strong> October 10, 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> October 10, 2026</p>
+  </header>
+
+  <p>Scan247 (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;the App&rdquo;) is developed and operated by <strong>[INSERT DEVELOPER / COMPANY NAME]</strong>. We respect your privacy and are committed to safeguarding it. This Privacy Policy details the data practices of the Scan247 mobile application for Android.</p>
+
+  <h2>1. Summary of Data Practices</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Data Category</th>
+        <th>On-Device Processing</th>
+        <th>Sent to Developer</th>
+        <th>Third-Party Processing</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Camera Stream &amp; Viewfinder</strong></td>
+        <td><span class="badge badge-local">Yes (In-Memory Only)</span></td>
+        <td>None (Never)</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td><strong>Selected Gallery Photos</strong></td>
+        <td><span class="badge badge-local">Yes (In-Memory Only)</span></td>
+        <td>None (Never)</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td><strong>Decoded Scan Content &amp; History</strong></td>
+        <td><span class="badge badge-local">Yes (Local SharedPreferences)</span></td>
+        <td>None (Never)</td>
+        <td>None (Only if you tap Share)</td>
+      </tr>
+      <tr>
+        <td><strong>Favorites &amp; App Settings</strong></td>
+        <td><span class="badge badge-local">Yes (Local SharedPreferences)</span></td>
+        <td>None (Never)</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td><strong>Advertising ID &amp; Telemetry</strong></td>
+        <td>No</td>
+        <td>None</td>
+        <td><span class="badge badge-remote">Google Mobile Ads (AdMob)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Payment &amp; Financial Information</strong></td>
+        <td>None</td>
+        <td>None</td>
+        <td>None (No in-app purchases active)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>2. Privacy-First Architecture</h2>
+  <ul>
+    <li><strong>No Account Required:</strong> Scan247 requires zero signup, login, or personal profile creation. You can use all core features immediately.</li>
+    <li><strong>No Remote Processing of Scans:</strong> Barcodes and QR codes are detected and decoded entirely on your device using Google ML Kit. We do not transmit scanned text, URLs, contacts, or Wi-Fi credentials to any remote server.</li>
+    <li><strong>No Image Uploads:</strong> Camera frames and gallery photos are analyzed locally in volatile memory and are never uploaded.</li>
+    <li><strong>No Location Tracking:</strong> The App does not access, collect, or track your GPS coordinates or precise location.</li>
+  </ul>
+
+  <h2>3. Data Processed Locally on Your Device</h2>
+  <h3>A. Camera Feeds</h3>
+  <p>The App requests camera access (<code>android.permission.CAMERA</code>) solely to scan QR codes and product barcodes in real time. Video frames are processed in-memory by Google ML Kit and discarded immediately. No video recordings or photos are saved to disk or transmitted over the network.</p>
+
+  <h3>B. Gallery Photo Analysis</h3>
+  <p>When you select "Scan from Image," the Android photo picker accesses only the specific photo you choose. The image is analyzed locally on your device to extract barcode data and is released from memory immediately thereafter.</p>
+
+  <h3>C. Scan History, Favorites, and Code Creation</h3>
+  <p>Your scan history, custom QR codes, and favorites are stored solely on your device using Android&rsquo;s sandboxed local storage (<code>SharedPreferences</code>). You can delete individual scans or wipe the entire history at any time using the "Clear History" button in the App. Uninstalling the App permanently deletes this data.</p>
+
+  <h3>D. Local Dangerous Link Protection</h3>
+  <p>The App provides an optional heuristic link checker that warns you before opening suspicious or unencrypted URLs. All link analysis (shortener detection, IP checking, protocol inspection) runs completely offline on your device without sending URLs to external verification servers.</p>
+
+  <h2>4. Third-Party Services and Network Data Collection</h2>
+  <p>Scan247 does not maintain proprietary tracking or analytics servers. The following third-party software development kits (SDKs) are present:</p>
+
+  <h3>A. Google Mobile Ads (AdMob)</h3>
+  <p>The free version of Scan247 uses the Google Mobile Ads SDK (<code>google_mobile_ads</code>) to serve banner and interstitial ads. To display ads and combat fraud, Google AdMob may collect and process:</p>
+  <ul>
+    <li><strong>Advertising Identifiers:</strong> Google Advertising ID (GAID / <code>AD_ID</code>) and Privacy Sandbox tokens.</li>
+    <li><strong>Device &amp; Telemetry Data:</strong> Device model, OS version, carrier, network type, and screen dimensions.</li>
+    <li><strong>IP Address:</strong> Used by Google to infer general coarse location (e.g., country/city level) to serve relevant ads.</li>
+    <li><strong>Ad Performance Metrics:</strong> Ad impressions, clicks, viewability, and error diagnostics.</li>
+  </ul>
+  <p>Google handles this data pursuant to its privacy policies:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+    <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use its services</a></li>
+  </ul>
+  <p>You can opt out of personalized advertising by resetting or deleting your Advertising ID via your device&rsquo;s <strong>Settings &rarr; Google &rarr; Ads</strong>.</p>
+
+  <h3>B. Google Fonts</h3>
+  <p>The App loads typography using <code>google_fonts</code> over HTTPS and caches the font files locally. Google may receive standard HTTP request metadata (such as IP address) during this initial font download.</p>
+
+  <h3>C. External Links</h3>
+  <p>When you choose to open a scanned web link, telephone number, or map location, the App opens your device&rsquo;s default browser or handler. Your interactions on external websites are subject to the respective third-party privacy policies.</p>
+
+  <h2>5. In-App Purchases and Subscriptions</h2>
+  <p>Scan247 includes an in-app "Pro Mode" preference toggle. Currently, <strong>no payment processing, Google Play Billing SDK, or third-party subscription SDK (such as RevenueCat) is integrated into the App</strong>. The App does not collect, process, or store credit card numbers, payment methods, or financial data. If in-app purchases are enabled in a future release, transactions will be managed exclusively through Google Play In-App Billing.</p>
+
+  <h2>6. Device Permissions</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Permission</th>
+        <th>Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>android.permission.CAMERA</code></td>
+        <td>Provides live viewfinder for real-time QR and barcode scanning.</td>
+      </tr>
+      <tr>
+        <td><code>android.permission.FLASHLIGHT</code></td>
+        <td>Allows toggling the device torch when scanning in low-light environments.</td>
+      </tr>
+      <tr>
+        <td><code>android.permission.VIBRATE</code></td>
+        <td>Delivers haptic feedback upon successful code detection.</td>
+      </tr>
+      <tr>
+        <td><code>android.permission.INTERNET</code></td>
+        <td>Enables AdMob ad loading, font fetching, and opening scanned web links.</td>
+      </tr>
+      <tr>
+        <td><code>android.permission.ACCESS_NETWORK_STATE</code></td>
+        <td>Allows AdMob to check whether network connectivity is available.</td>
+      </tr>
+      <tr>
+        <td><code>com.google.android.gms.permission.AD_ID</code></td>
+        <td>Used by Google Mobile Ads SDK for advertising identifier attribution.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>7. Data Retention &amp; Deletion</h2>
+  <ul>
+    <li><strong>User Data:</strong> All scan history and settings are stored locally. You can delete items individually or clear your entire history at any time within the App. Uninstalling Scan247 deletes all local data immediately.</li>
+    <li><strong>Advertising Data:</strong> Advertising data collected by Google is managed according to Google&rsquo;s standard retention schedules.</li>
+  </ul>
+
+  <h2>8. Children&rsquo;s Privacy</h2>
+  <p>Scan247 is a general utility tool and is <strong>not targeted at children under 13 years of age</strong> (or under 16 in the EEA/UK). We do not knowingly collect personal information from children. If you believe that a child has provided us with personal information, please contact us so we can take appropriate steps.</p>
+
+  <h2>9. Developer Contact Information</h2>
+  <div class="placeholder-alert">
+    <strong>Action Required Before Publishing:</strong> Please replace the contact details below with your real developer or organization information.
+  </div>
+  <ul>
+    <li><strong>Developer / Publisher:</strong> [INSERT DEVELOPER / COMPANY NAME]</li>
+    <li><strong>Contact Email:</strong> [INSERT SUPPORT EMAIL ADDRESS]</li>
+    <li><strong>Website:</strong> [INSERT WEBSITE URL OR GITHUB PROFILE]</li>
+    <li><strong>Mailing Address:</strong> [INSERT BUSINESS/MAILING ADDRESS, OPTIONAL]</li>
+  </ul>
+
+  <footer>
+    &copy; 2026 Scan247 • All Rights Reserved.
+  </footer>
+</div>
+
+</body>
+</html>
